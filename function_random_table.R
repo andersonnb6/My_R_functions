@@ -1,10 +1,11 @@
 # Objetivo: criar uma tabela com numeros inteiros aleatorios
 
-random_table <- function(x, y, z = TRUE){
+# Parametros:
+#   x: numero de linhas
+#   y: numero de colunas
+#   z: "TRUE ou FALSE": se deve haver repeticao de numeros
 
-  # x: numero de linhas
-  # y: numero de colunas
-  # z: "TRUE ou FALSE": se deve haver repeticao de numeros
+random_table <- function(x, y, z = TRUE){
   
   # Criando matrix Col x Rows
   table <- matrix(sample(1:(y*x), replace = z), ncol=x)
