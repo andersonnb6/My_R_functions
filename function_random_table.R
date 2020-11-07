@@ -1,4 +1,4 @@
-# Objetivo criar uma tabela com numeros inteiros aleatorios
+# Objetivo: criar uma tabela com numeros inteiros aleatorios
 
 random_table <- function(x, y, z = TRUE){
 
